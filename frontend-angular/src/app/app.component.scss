@@ -1,0 +1,35 @@
+$primary-color: #6200ea;
+$text-color: white;
+
+header {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin: 1rem 0;
+  text-align: center;
+
+  a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: $primary-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+main {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: gray;
+}
