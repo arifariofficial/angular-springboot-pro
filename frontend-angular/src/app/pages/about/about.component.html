@@ -1,2 +1,4 @@
-<h2>About Us</h2>
-<p>Learn more about us on this page.</p>
+<section *ngIf="aboutContent">
+  <h2>{{ aboutContent.title }}</h2>
+  <p>{{ aboutContent.content }}</p>
+</section>
