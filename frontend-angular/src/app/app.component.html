@@ -1,17 +1,4 @@
-<header>
-  <h1>Welcome to My Angular Homepage</h1>
-</header>
-<nav>
-  <a routerLink="/">Home</a>
-  <a routerLink="/about">About</a>
-  <a routerLink="/contact">Contact</a>
-</nav>
-
-<!-- Routed components will render here -->
-<router-outlet></router-outlet>
+<app-navbar></app-navbar>
 <main>
-  <p>This is your first Angular homepage.</p>
+  <router-outlet></router-outlet>
 </main>
-<footer>
-  <p>&copy; 2024 My Angular App</p>
-</footer>
